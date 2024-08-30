@@ -1,0 +1,10 @@
+gayathri@alahomora:~/Desktop/SS/10$ ls
+10.c  a.out  examplefile.txt
+gayathri@alahomora:~/Desktop/SS/10$ cat examplefile.txt 
+ABCDEFGHIJ1234567890
+
+gayathri@alahomora:~/Desktop/SS/10$ od -c examplefile.txt 
+0000000   A   B   C   D   E   F   G   H   I   J  \0  \0  \0  \0  \0  \0
+0000020  \0  \0  \0  \0   1   2   3   4   5   6   7   8   9   0
+0000036
+gayathri@alahomora:~/Desktop/SS/10$ 
