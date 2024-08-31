@@ -1,0 +1,20 @@
+gayathri@alahomora:~/Desktop/SS/18$ ./create_records 
+Records created successfully.
+gayathri@alahomora:~/Desktop/SS/18$ ls
+create_records  create_records.c  manage_records  manage_records.c  records.txt
+gayathri@alahomora:~/Desktop/SS/18$ cat records.txt 
+Record 1: Initial content
+Record 2: Initial content
+Record 3: Initial content
+gayathri@alahomora:~/Desktop/SS/18$ ./manage_records 
+Read lock acquired on record at offset 0.
+Read record 1: Record 1: Initial content
+Lock released on record at offset 0.
+Write lock acquired on record at offset 50.
+Current content of record 2: Record 2: Initial content
+Modified record 2: Record 2: Updated content
+Lock released on record at offset 50.
+gayathri@alahomora:~/Desktop/SS/18$ cat records.txt 
+Record 1: Initial content
+Record 2: Updated content
+Record 3: Initial content

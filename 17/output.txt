@@ -1,0 +1,12 @@
+gayathri@alahomora:~/Desktop/SS/17$ cc program1.c
+gayathri@alahomora:~/Desktop/SS/17$ ./a.out
+Initialized ticket number 1000
+gayathri@alahomora:~/Desktop/SS/17$ ls
+a.out  program1  program1.c  program2  program2.c  ticket_file.txt
+gayathri@alahomora:~/Desktop/SS/17$ cat ticket_file.txt 
+1000
+gayathri@alahomora:~/Desktop/SS/17$ cc program2.c
+gayathri@alahomora:~/Desktop/SS/17$ ./a.out
+Updated ticket number to 1001
+gayathri@alahomora:~/Desktop/SS/17$ cat ticket_file.txt 
+1001
