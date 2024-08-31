@@ -1,0 +1,5 @@
+gayathri@alahomora:~/Desktop/SS/26$ cc -o a.out program.c
+gayathri@alahomora:~/Desktop/SS/26$ cc -o program2 program2.c
+gayathri@alahomora:~/Desktop/SS/26$ ./program2 
+Executing ./a.out with argument User
+Hello, User!
